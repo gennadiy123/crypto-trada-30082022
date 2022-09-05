@@ -1,3 +1,11 @@
+# 1.0.0 (2022-09-05)
+
+
+### Features
+
+* **no-jira:** updates ([d974501](https://github.com/gennadiy123/crypto-trada-30082022/commit/d974501ab7a73ee7bad7641c25bd8db261e16287))
+* **no-jira:** updates ([112b4d6](https://github.com/gennadiy123/crypto-trada-30082022/commit/112b4d62e1270c0bba6acb5becd13a716f99dc29))
+
 # [1.1.0](https://github.com/rbelmega/crypto-trada-30082022/compare/v1.0.1...v1.1.0) (2022-08-30)
 
 
