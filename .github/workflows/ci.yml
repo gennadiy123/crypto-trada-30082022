@@ -2,28 +2,26 @@ name: SPA CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   pull_request:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   setup:
-
     runs-on: ubuntu-latest
-       
-    steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js 16
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
-        cache: 'yarn'
-    - run: |
-            yarn install
-            yarn run lint
-            yarn test
-            yarn build
 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - run: |
+          yarn install
+          yarn run lint
+          yarn test
+          yarn build
 
   semantic-release:
     runs-on: ubuntu-latest
