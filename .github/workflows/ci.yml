@@ -23,7 +23,7 @@ jobs:
         node-version: 16
         cache: 'yarn'
     - run: 
-          yarn install
+          yarn add
           yarn run lint
           yarn test
           yarn build
